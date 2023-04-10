@@ -1,0 +1,13 @@
+prefix=/home/ankit/House_price_Prediction/venv
+exec_prefix=/home/ankit/House_price_Prediction/venv
+libdir=/home/ankit/House_price_Prediction/venv/lib
+sharedlibdir=/home/ankit/House_price_Prediction/venv/lib
+includedir=/home/ankit/House_price_Prediction/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
